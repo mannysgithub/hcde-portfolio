@@ -26,25 +26,25 @@ function draw() {
   rect(136, 0, 250,250); // slightly to the right square
   
   // dark grey sliver
-  fill(125, 125, 125); // dark grey
+  fill(125); // dark grey
   rect(136, 200, 250, 50); // rectangle under the square
 
   // line intersecting circle
   line(385, 200, 575, 200); // line bisecting half circle
   
   // large light grey rectangle
-  fill(217, 217, 217); // light light grey
+  fill(217); // light light grey
   rect(0, 251, 386, 196); // rectangle below
   
   // rect sliver
-  fill(189, 189, 191); //light grey
+  fill(189, 189, 191); // light grey
   rect(383, 695, 290, 254); // behind circle to make sliver
 
   // huge pink circle
   stroke(20); // black stroke
   strokeWeight(4); // make thicker line
   fill(217, 167, 193); //darker pink
-  ellipse(383, 669, 560, 560); //big circle behind triangle
+  ellipse(383, 669, 560, 560); // big circle behind triangle
   strokeWeight(2); //return stroke to regular
   
   // lower corner rectangle
@@ -54,11 +54,11 @@ function draw() {
   
   // large triangle
   fill(181, 179, 125); //ugly yellow
-  triangle(0, 949, 215, 250, 430, 949); //large triangle in the corner
+  triangle(0, 949, 215, 250, 430, 949); // large triangle in the corner
   
   // smaller inner triangle
   fill(252, 250, 187); //light yellow
-  triangle(47, 800, 215, 250, 383, 800); //fit within larger triangle
+  triangle(47, 800, 215, 250, 383, 800); // fit within larger triangle
   
   // line intersecting triamgle
   line(215, 250, 215, 949); // line bisecting triangle
@@ -95,7 +95,7 @@ function draw() {
   rect(665, 232, 300, 232); // rectangle on the right just above center
   
   // arc on top of circle
-  fill(161, 161, 161); // light grey
+  fill(161); // light grey
   arc(580, 669, 168, 400, 269, 451); // the right tip of huge circle
 
   // rectangle far right below center
