@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  width: 900px;
+  margin: 80px auto;
+}
+
+section {
+  background-color:DCDCDC;
+}
+
+h1 {
+  color:5F9EA0;
+}
+
+p, a {
+  color:000000;
+}
+
+
