@@ -6,15 +6,20 @@ body {
 
 section {
   background-color:DCDCDC;
-  padding: 10px;
 }
 
 h1 {
   color:5F9EA0;
+  padding: 20px 0px 0px 20px;
 }
 
 p, a {
   color:000000;
+  padding: 0px 20px 20px 20px;
+}
+
+ul {
+  padding: 0px 20px 20px 30px;
 }
 
 
