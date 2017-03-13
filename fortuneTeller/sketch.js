@@ -25,9 +25,9 @@ var nounPPT = nouns[Math.floor(Math.random()*nouns.length)];  //random word gene
 var adjD = adj[Math.floor(Math.random()*adj.length)]; //random word generator code for adjectives
 var advB = adj[Math.floor(Math.random()*adj.length)]; //random word generator code for adverbs
 var nounPPU = nount[Math.floor(Math.random()*nount.length)]; //random word generator code for nouns 2
-var verbT = adj[Math.floor(Math.random()*adj.length)]; //random word generator code for verbs 2
+var verbT = verbs[Math.floor(Math.random()*verbs.length)]; //random word generator code for verbs 2
 var whoPPP = who[Math.floor(Math.random()*who.length)]; //random word generator code for whos
-var willRRR = nount[Math.floor(Math.random()*will.length)]; //random word generator code for wills
+var willRRR = will[Math.floor(Math.random()*will.length)]; //random word generator code for wills
 
 
 
@@ -163,9 +163,9 @@ function cardRandomText () {
     adjD = adj[Math.floor(Math.random()*adj.length)];
     advB = adj[Math.floor(Math.random()*adj.length)];
     nounPPU = nount[Math.floor(Math.random()*nount.length)];
-    verbT = adj[Math.floor(Math.random()*adj.length)]
+    verbT = verbs[Math.floor(Math.random()*verbs.length)]
     whoPPP = who[Math.floor(Math.random()*who.length)];
-    willRRR = nount[Math.floor(Math.random()*will.length)];
+    willRRR = will[Math.floor(Math.random()*will.length)];
 //sentence structure for fortunes with the variables used in randomizer
    return nounPPT + " " + willRRR + " " + verbT + " " + whoPPP + " " + adjD + " " + nounPPU;
 }
