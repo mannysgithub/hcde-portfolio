@@ -1,5 +1,6 @@
 // Created by Mannie Zetino and Lauren Hirt
-// Last edited 3/12/2017
+//
+Last edited 3/12/2017
 // Fortune Telling Game for 4 players. A fortune is radomly generated from the arrays of words with the click of the mouse.
 
 
