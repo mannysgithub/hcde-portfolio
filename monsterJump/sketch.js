@@ -26,7 +26,7 @@ function draw() {
   textSize(20); // size of font
   fill(52, 209, 0); // font color
   textAlign(CENTER, CENTER); // text in the middle
-  text("Click Me", 75, 650); // write button label and center it
+  text("Click Me", 75, 650); // text for box
 
 
   if(page == 0) { // initial page before a click
@@ -46,11 +46,12 @@ function draw() {
 // calling monster
 function monster(x,y) { 
     body(x, y + jumpValue);
+    eyes(eyeDirection + x, jumpValue - 0);
+
 }
 
 // draws the body of the monster at X and Y
 function body(x,y) {
-  eyes(eyeDirection + x, jumpValue - 0);
   noStroke();
   fill(52, 209, 0); // color of monster
   rect(x, y + 200, 200, 200, 6); // body of monster
